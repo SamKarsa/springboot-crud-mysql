@@ -13,7 +13,7 @@ public class Brand {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer brandId;
 
-    @Column(nullable = false, length = 30)
+    @Column(nullable = false, length = 50)
     private String brandName;
 
     @OneToMany(mappedBy = "brand", cascade = CascadeType.ALL, fetch = FetchType.LAZY)

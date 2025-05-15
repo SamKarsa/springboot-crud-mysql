@@ -11,7 +11,7 @@ public class Car {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer carId;
 
-    @Column(nullable = false, length = 30)
+    @Column(nullable = false, length = 50)
     private String model;
 
     @Column(nullable = false, length = 100)
