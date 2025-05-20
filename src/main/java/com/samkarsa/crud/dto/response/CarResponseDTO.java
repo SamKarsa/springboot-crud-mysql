@@ -8,7 +8,7 @@ public class CarResponseDTO {
     private Integer carId;
     private String model;
     private String description;
-    private Integer price;
+    private Double price;
     private Integer year;
     private Integer mileage;
     private Car.CarStatus carStatus;
